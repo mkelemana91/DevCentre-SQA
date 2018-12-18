@@ -15,8 +15,8 @@ import java.util.Properties;
 
 public class AppiumDriverHandler {
 
-    public static Properties mobileProp;
-    public static AppiumDriver<MobileElement> mobileDriver;
+    private static Properties mobileProp;
+    private static AppiumDriver<MobileElement> mobileDriver;
 
 
 
@@ -42,7 +42,7 @@ public class AppiumDriverHandler {
         capabilities.setCapability(MobileCapabilityType.DEVICE_NAME,mobileProp.getProperty("deviceName"));
         capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME,mobileProp.getProperty("platformName"));
         capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION,mobileProp.getProperty("platformVersion"));
-        capabilities.setCapability(MobileCapabilityType.APP,System.getProperty("user.dir")+"/apk/android-UniversalMusicPlayer.apk");
+        capabilities.setCapability(MobileCapabilityType.APP,System.getProperty("user.dir")+"/apk/apkName.apk");
 
         //mobileDriver = new AndroidDriver<MobileElement>(capabilities);
         try {
