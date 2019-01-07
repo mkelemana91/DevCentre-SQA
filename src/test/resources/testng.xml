@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite  name="INSERT SUITE NAME">
+
+<listeners>
+    <listener class-name="reporting.ExtentReportListener"/>
+</listeners>
+
+    <test name="INSERT TEST NAME">
+        <!--classes-->
+            <class name="INSERT FIRST CLASS"></class>
+            <class name="INSERT SECOND CLASS"></class>
+            <class name="INSERT THIRD CLASS"></class>
+        <!--/classes-->
+    </test>
+</suite>
