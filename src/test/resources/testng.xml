@@ -8,8 +8,8 @@
 
     <test name="INSERT TEST NAME">
         <classes>
-            <!--class name="INSERT FIRST CLASS"></class>
-            <class name="INSERT SECOND CLASS"></class>
+            <class name="WebEngine.OMLoginCode"></class>
+            <!--class name="INSERT SECOND CLASS"></class>
             <class name="INSERT THIRD CLASS"></class-->
         </classes>
     </test>
