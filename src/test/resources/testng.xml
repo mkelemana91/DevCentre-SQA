@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite  name="INSERT SUITE NAME">
 
-<listeners>
+<!--listeners>
     <listener class-name="reporting.ExtentReportListener"/>
-</listeners>
+</listeners-->
 
     <test name="INSERT TEST NAME">
-        <!--classes-->
-            <class name="INSERT FIRST CLASS"></class>
+        <classes>
+            <!--class name="INSERT FIRST CLASS"></class>
             <class name="INSERT SECOND CLASS"></class>
-            <class name="INSERT THIRD CLASS"></class>
-        <!--/classes-->
+            <class name="INSERT THIRD CLASS"></class-->
+        </classes>
     </test>
 </suite>
